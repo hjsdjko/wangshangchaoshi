@@ -1,0 +1,21 @@
+推荐使用：谷歌浏览器
+
+网址：http://localhost:8080/wangshangchaoshi/admin/dist/index.html#/login 后台管理 http://localhost:8080/wangshangchaoshi/front/index.html 前台
+
+管理员  admin  密码：admin     
+
+管理员可查看其他可用于登录人员的账号密码
+ 
+在/src/main/resources/config.properties中编辑
+											
+	jdbc_url=jdbc:mysql://127.0.0.1:3306/wangshangchaoshi?useUnicode=true&characterEncoding=UTF-8&tinyInt1isBit=false
+	jdbc_username=root	    数据库用户名 root
+	jdbc_password=123456	用户密码    123456
+
+
+图片存放路径： src\main\webapp\upload 里面上传图片名里面不能有中文
+
+
+
+
+  
